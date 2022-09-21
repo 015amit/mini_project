@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annotate Text</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper d-flex">
+        <div class="sidebar">
+
+        </div>
+
+        <!-- Page content -->
+        <div class="content">
+
+            <div class="card">
+                <div class="card-header">
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <input type="text" placeholder="New tag">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-success" type="button">Add</button>
+                            </div>
+                        </div>
+                    </form>
+                    <select name="work_days" id="id_work_days" multiple>
+                        <option value="1">sunday</option>
+                        <option value="2">mon</option>
+                        <option value="3">tue</option>
+                        <option value="4">wed</option>
+                        <option value="5">thu</option>
+                        <option value="6">fri</option>
+                        <option value="7">sat</option>
+                    </select>
+                </div>
+                <div class="card-body">
+                    <textarea class="form-control" rows="14" aria-label="With textarea"></textarea>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary" type="button">Export as pdf</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
